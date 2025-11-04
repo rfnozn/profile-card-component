@@ -1,3 +1,29 @@
+:root {
+  --clr-white: #FFFFFF;
+  --clr-gray-500: #6B7082;
+  --clr-gray-100: #E8E9EC;
+  --clr-blue-600: #19A1AE;
+  --clr-blue-400: #41CBD3;
+  --clr-navy-950: #2E3349;
+  --clr-gradient: linear-gradient(90deg, #53FFEE 0%, #0989B4 100%);
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/kumbh-sans-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/kumbh-sans-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -20,6 +46,9 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+
+  /* --- */
+  font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
 }
 
 /* 6. Improve media defaults */
