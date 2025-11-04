@@ -113,10 +113,16 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.profile-card__avatar {
+.profile-card__avatar-container {
+  background-color: var(--clr-white);
+  padding: 5px;
+  border-radius: 50%;
   position: absolute;
   justify-self: center;
   top: 0;
   translate: 0 -50%;
+}
+
+.profile-card__avatar {
   border-radius: 50%;
 }
