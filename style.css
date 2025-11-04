@@ -94,3 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+.profile-card__container {
+  max-width: 326px;
+  background-color: var(--clr-white);
+  border-radius: 15px;
+  box-shadow: 0 50px 100px -20px hsla(197, 84%, 20%, 0.25);
+}
