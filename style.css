@@ -49,6 +49,19 @@ body {
 
   /* --- */
   font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+
+  /* Add background styles */
+  background-color: var(--clr-blue-600);
+  background-image:
+    url('images/bg-pattern-top.svg'),
+    url('images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    right 50vw bottom 50vh,
+    left 50vw top 50vh;
 }
 
 /* 6. Improve media defaults */
