@@ -106,3 +106,17 @@ h1, h2, h3, h4, h5, h6 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.profile-card__content {
+  display: grid;
+  gap: 24px;
+  position: relative;
+}
+
+.profile-card__avatar {
+  position: absolute;
+  justify-self: center;
+  top: 0;
+  translate: 0 -50%;
+  border-radius: 50%;
+}
